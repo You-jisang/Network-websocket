@@ -1,0 +1,61 @@
+# 스프링 부트 관련 일반적인 .gitignore 설정
+
+# 컴파일된 바이트 코드
+*.class
+
+# 패키지된 파일
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# 로그 파일
+*.log
+
+# 자바 빌드 디렉토리
+target/
+out/
+
+# 생성된 문서 디렉토리
+javadoc/
+
+# Maven
+!**/src/main/resources/archetype-resources/
+!**/src/main/resources/files/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+
+# 작업 환경 설정 파일
+.DS_Store
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*~.nib
+local.properties
+
+# OS 생성 파일
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 기타
+HELP.md
